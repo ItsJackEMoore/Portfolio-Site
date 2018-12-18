@@ -29,3 +29,9 @@ ul li ul li{
 ul li:hover ul li{
   display: block;
 }
+#top{
+  background-color: #656565;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
