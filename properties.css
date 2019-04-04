@@ -25,7 +25,7 @@ header::after {
   padding: 10px 0;
 }
 .pPhoto{
-  float: left;
+  float: center;
   border-radius: 50% 
 }
 
