@@ -33,7 +33,7 @@ header::after {
 }
 
 nav {
-  float: right;
+  float: center;
 }
 
 nav ul {
