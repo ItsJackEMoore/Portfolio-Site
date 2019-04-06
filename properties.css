@@ -1,3 +1,6 @@
+p {
+  color:#55d6aa;
+}
 body {
   margin: 0;
   background: #222;
@@ -31,7 +34,10 @@ header::after {
   float: center;
   border-radius: 50% 
 }
+#selfDesc{
+  text-align: center;
 
+}
 nav {
   float: center;
 }
