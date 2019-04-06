@@ -21,8 +21,11 @@ header::after {
 }
 
 .logo {
+  height: 80px;
+  width:140px;
   float: left;
-  padding: 10px 0;
+  padding: 5px;
+  align-self: top;
 }
 .pPhoto{
   float: center;
