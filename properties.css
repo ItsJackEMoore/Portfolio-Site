@@ -30,8 +30,9 @@ header::after {
   padding: 5px;
   align-self: top;
 }
-.pPhoto{
-  float: center;
+#pPhoto{
+  display: block;
+  padding: 50px;
   border-radius: 50% 
 }
 #selfDesc{
