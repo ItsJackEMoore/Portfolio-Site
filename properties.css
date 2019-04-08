@@ -32,6 +32,8 @@ header::after {
 }
 #pPhoto{
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 50px;
   border-radius: 50% 
 }
