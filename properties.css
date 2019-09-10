@@ -91,9 +91,11 @@ nav a:hover::before {
   top: 0;
   width: 100%
 }
-#myResume{
+#Resume{
   margin-top: 50px;
   margin-bottom: 50px;
+}
+#myResume{
   height: 750px; 
   width: 720px;
 }
