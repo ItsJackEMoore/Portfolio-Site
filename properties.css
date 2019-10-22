@@ -1,4 +1,14 @@
+.clearfix{
+  overflow: auto;
+}
+
 p {
+  color:#55d6aa;
+}
+h2{
+  color:#55d6aa
+}
+h1{
   color:#55d6aa;
 }
 body {
@@ -9,7 +19,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -30,17 +40,7 @@ header::after {
   padding: 5px;
   align-self: top;
 }
-#pPhoto{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 50px;
-  border-radius: 50% 
-}
-#selfDesc{
-  text-align: center;
 
-}
 nav {
   float: center;
 }
@@ -86,6 +86,38 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+#about{
+  width: 100%;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+#pBlock{
+  float:left;
+  padding-left: 150px;
+}
+#pPhoto{
+  padding-right: 20px;
+  padding left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  border-radius: 50%;
+}
+#tBlock{
+  text-align: center;
+
+}
+#aboutTitle{
+  display: inline-block;
+}
+#selfDesc{
+  text-align: left;
+  text-indent: 50px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
 .sticky{
   position: fixed;
   top: 0;
@@ -98,8 +130,4 @@ nav a:hover::before {
   height: 750px; 
   width: 720px;
 }
-#Insta{
-	margin-top: 50px;
-	height: 750px;
-	width: 800px;
-}
+
