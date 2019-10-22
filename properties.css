@@ -1,7 +1,6 @@
 .clearfix{
   overflow: auto;
 }
-
 p {
   color:#55d6aa;
 }
@@ -123,11 +122,5 @@ nav a:hover::before {
   top: 0;
   width: 100%
 }
-#Resume{
-  margin-bottom: 50px;
-}
-#myResume{
-  height: 750px; 
-  width: 60%;
-}
+
 
