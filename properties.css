@@ -11,6 +11,8 @@ h1{
   color:#55d6aa;
 }
 body {
+  width: 100%;
+  height:100%;
   margin: 0;
   background: #222;
   font-family: Arial;
@@ -20,7 +22,7 @@ body {
   width:100%;
 }
 .container {
-  width: 90%;
+  width: 80%%;
   margin: 0 auto;
 }
 
@@ -101,6 +103,31 @@ nav a:hover::before {
   position: fixed;
   top: 0;
   width: 100%
+}
+footer{
+  background: #55d6aa;
+  position:fixed;
+  bottom:0;
+  width:100%;  
+  margin:0; padding:0;
+  background-size: 100%
+}
+ul li{
+  display: inline-block;
+  float: left;
+}
+.columns{
+}
+.sDiv{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#icon{
+
+  width: 48px;
+  height: 48px;
 }
 
 
