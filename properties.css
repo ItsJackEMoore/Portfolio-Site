@@ -3,15 +3,15 @@
 }
 p {
   color:#55d6aa;
-  font-size: 1.5vw
+  font-size: 1.5vw;
 }
 h2{
-  color:#55d6aa
-  font-size: 1.5vw
+  color:#55d6aa;
+  font-size: 1.5vw;
 }
 h1{
   color:#55d6aa;
-  font-size: 1.5vw
+  font-size: 1.5vw;
 }
 body {
   width: 100%;
@@ -20,7 +20,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 70px;
-  background: #222;
+  background-color: #222;
   font-family: Arial;
   font-weight: 800;
 }
@@ -143,12 +143,11 @@ footer{
   bottom:0;
   width:100%;  
   margin:0; padding:0;
+  display: inline-block;
 }
 ul li{
   display: inline-block;
   float: left;
-}
-.columns{
 }
 .sDiv{
   margin-bottom: 10px;
@@ -156,7 +155,12 @@ ul li{
   margin-right: 10px;
   margin-left: 10px;
 }
-#icon{
+.Gimage{
+	margin: 10px;
+	width: 210px;
+	height: 210px;
+}
+.Sicon{
 
   width: 48px;
   height: 48px;
