@@ -3,15 +3,12 @@
 }
 p {
   color:#55d6aa;
-  font-size: 1.5vw;
 }
 h2{
   color:#55d6aa;
-  font-size: 1.5vw;
 }
 h1{
   color:#55d6aa;
-  font-size: 1.5vw;
 }
 body {
   width: 100%;
@@ -23,6 +20,8 @@ body {
   background-color: #222;
   font-family: Arial;
   font-weight: 800;
+  font-size: 1.5vw;
+  overflow: auto;
 }
 #myHeader{
   width:100%;
@@ -165,5 +164,28 @@ ul li{
   width: 48px;
   height: 48px;
 }
+.section{
+	width: 100%;
+	margin: 20px;
+}
+.Eblock{
+	margin: 15px
+}
+.subject{
+	width: 60%;
+	float: left;
+}
+.title{
+	text-align: center;
+}
+
+.date{
+	width: 40%;
+	float: right;
+}
+.desc{
+	width: 100%;
+}
+
 
 
