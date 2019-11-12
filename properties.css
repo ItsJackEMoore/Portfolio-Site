@@ -1,6 +1,9 @@
 .clearfix{
   overflow: auto;
 }
+hr{
+	align-self: center;
+}
 p {
   color:#55d6aa;
 }
