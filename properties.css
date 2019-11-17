@@ -23,7 +23,7 @@ body {
   background-color: #222;
   font-family: Arial;
   font-weight: 800;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   overflow: auto;
 }
 #myHeader{
@@ -169,7 +169,8 @@ ul li{
 }
 .section{
 	width: 100%;
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .Eblock{
 	margin: 15px
