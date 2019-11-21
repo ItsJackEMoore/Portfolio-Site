@@ -1,4 +1,4 @@
-.clearfix{
+a.clearfix{
   overflow: auto;
 }
 hr{
@@ -133,11 +133,27 @@ button:hover{
   width: 100%;
 }
 
-
+.galImg{
+	max-height: 150px;
+	max-width: 200px;
+	margin:10px;
+	height: auto;
+	width: auto;
+}
+.row{
+	width:100%;
+	
+}
+.col{
+	width: 20%;
+	height: auto;
+	display: inline;
+	
+}
 .sticky{
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 footer{
   background: #55d6aa;
