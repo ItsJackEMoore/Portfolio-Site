@@ -126,10 +126,6 @@ button:hover{
   height: auto;
   max-height: 1000px;
   min-height: 300px;
-  display: flex;
-  background-image:url("0.jpg");
-  background-repeat: no-repeat;
-  background-size:100% 100%;
   width: 100%;
 }
 
