@@ -18,7 +18,7 @@ body {
   margin-right: 0;
   margin-bottom: 70px;
   background-color: #222;
-  font-family: Arial;
+  font: Arial;
   font-weight: 800;
   font-size: 1.4vw;
   overflow: auto;
