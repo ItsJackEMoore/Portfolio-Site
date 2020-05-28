@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --Gimik:#55d6aa;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -67,7 +68,7 @@ body {
 }
 
 hr {
-  color: #55d6aa;
+  color: Gimik;
   box-sizing: content-box;
   height: 0px;
   overflow: visible;
