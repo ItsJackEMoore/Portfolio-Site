@@ -52,12 +52,17 @@ nav {
   float: center;
   display: inline-flex;
 
+
+
+
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   list-style: none;
+
+ 
 }
 
 nav li {
@@ -65,10 +70,12 @@ nav li {
   margin-left: 70px;
   padding-top: 23px;
 
+
   position: relative;
 }
 
 nav a {
+  
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
@@ -187,6 +194,38 @@ ul li{
 .desc{
 	width: 100%;
 }
+.bg-img{
+  background-image: url("Animations/Walk.gif");
+  min-height: 200px;
+  max-height: 200px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 
 
 
