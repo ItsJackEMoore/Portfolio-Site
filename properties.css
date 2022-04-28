@@ -132,7 +132,7 @@ button:hover{
 	
 .col{
 	width: 20%;
-	height: 500px;
+	height: auto;
 	display: inline;
 	
 }
