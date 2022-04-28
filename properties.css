@@ -196,8 +196,8 @@ ul li{
 }
 .bg-img{
   background-image: url("Animations/Walk.gif");
-  min-height: 200px;
-  max-height: 200px;
+  min-height: 150px;
+  max-height: 150px;
 
   background-position: center;
   background-repeat: no-repeat;
