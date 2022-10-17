@@ -98,11 +98,6 @@ header {
   font-family: "Palatino Linotype";
   font-weight: 900;
 }
-.words{
-	opacity:0;
-  	animation: drop 1s linear forwards;
-  	color: black;
-}
 .person{
 	text-align: right;
 	opacity:0;
