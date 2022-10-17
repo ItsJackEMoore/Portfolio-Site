@@ -24,6 +24,7 @@ header {
 }
  body {
 	 background-color: antiquewhite;
+	 overflow: hidden;
     }
 
 #demo_reel{
