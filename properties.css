@@ -34,7 +34,7 @@ header {
 	text-decoration: none;
 }
  body {
-	 background-color: antiquewhite
+	 background-color: antiquewhite;
     }
 #Portfolio{
 	background-image: url("Illustrations/Tealara.png");
@@ -65,6 +65,14 @@ header {
 	height: 300px;
 	margin-left: -135px;	
 }
+.c_all{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 #move{
 	margin: 100px;
 }
@@ -76,9 +84,6 @@ header {
 	}
 }
 @media  (min-width: 768px) {
-    body {
-		background-color: #023A07;
-    }
     .nav {
         margin-top: -44px;
     }
