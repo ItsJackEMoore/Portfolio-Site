@@ -25,17 +25,7 @@ header {
  body {
 	 background-color: antiquewhite;
     }
-#Portfolio{
-	background-image: url("Illustrations/Tealara.png");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	overflow: hidden;
-}
-#About{
-	min-height: 100vh;
-	background-image: url("Illustrations/Red Gulf-Recovered.png");
-	background-position: center;
-}
+
 #demo_reel{
 	min-height: 100vh;
 	margin-left: auto;
@@ -47,8 +37,13 @@ header {
 	height: 200px;
 	width: 200px;
 	overflow: hidden;
-	margin-top: 5%;
-	margin-left: 20%;
+	margin-left: 15%;
+	margin-right: 5%
+}
+#Atext{
+	padding: 25px;
+	text-indent: 50px;
+	
 }
 .circle{
 	height: 300px;
