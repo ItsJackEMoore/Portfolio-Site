@@ -1,5 +1,5 @@
 header {
-  background: linear-gradient(to top,transparent,#023A07);
+  background: linear-gradient(to top,transparent,Grey);
 }
 #logo {
 	display: flex;
@@ -23,8 +23,8 @@ header {
 }
 .nav a {
   float: left;
-  font-family: "East Anglia";
-  font-size: 24px;
+  font-family: Aladin;
+  font-size: 35px;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -34,9 +34,7 @@ header {
 	text-decoration: none;
 }
  body {
-	 background-image: url("Media/Port_Town_Flyby_Camera1_1_263.jpg");
-	 background-repeat: no-repeat;
-	 background-size: cover;
+	 background-color: antiquewhite
     }
 #Portfolio{
 	background-image: url("Illustrations/Tealara.png");
@@ -65,52 +63,10 @@ header {
 }
 .circle{
 	height: 300px;
-	margin-left: -135px;
-	
-	
-}
-#t-text{
-	background-color: rgba(100, 100, 100, 0.75);
-	font-size: 24px;
-	text-indent: 6em;
-	width: 50%;
-	margin-right: 10%; 
-	float: right;
-	margin-top:6%;
-	font-family: "DejaVu Serif", Georgia, "serif"
-	
-}
-.c_all{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+	margin-left: -135px;	
 }
 #move{
 	margin: 100px;
-}
-.text-drop {
-  position: relative;
-  text-align: center;
-  font-size:50px;
-  font-family: "Palatino Linotype";
-  font-weight: 900;
-}
-.person{
-	text-align: right;
-	opacity:0;
-  	animation: drop .8s linear forwards 2s;
-  	color: black;
-}
-@keyframes drop {
-  0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
-  5% {opacity: .7;}
-  50% {transform: translateY(0px) scaleY(1); opacity: 1;}
-  65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
-  75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
-  100% {transform: translateY(0px) scaleY(1); opacity: 1;}
 }
 
 /* use media query to change the layout */
@@ -159,7 +115,7 @@ footer{
 	height: 100px;
 	position: fixed;
 	bottom: 0;
-	background: linear-gradient(to bottom, transparent, #023A07);
+	background: linear-gradient(to bottom, transparent,Grey);
 }
 
 
