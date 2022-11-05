@@ -18,11 +18,39 @@
   </ul>
 </header>
 <body>
-<div id="demo_reel">
+<div id="duttons">
+	<button onClick="Show2D()">2D Animation</button>
+	<button onClick="Show3D()">3D Model & Animations</button>
+</div>
+<div id="my2D" style="display:none;">
+	<video width="320" height="240" controls>
+ 	<source src="/Media/Moore_Jack_2DP.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+</div>
+<div id="my3D" style="display:none;">
 	<div class="c_all">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/NvqTGV-kqAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="hSttps://www.youtube.com/embed/NvqTGV-kqAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
-	</div>
+</div>
+<script>
+function Show2D() {
+  var x = document.getElementById("my2D");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Show3D() {
+  var x = document.getElementById("my3D");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>	
 </body>
 <footer>
   <ul class="fnav">
