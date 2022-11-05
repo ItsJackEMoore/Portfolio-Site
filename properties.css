@@ -42,10 +42,15 @@ button{
 button:hover {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+#duttons{
+	  margin: 25px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 #my2D{
-	min-height: 100vh;
-	margin-left: auto;
-	margin-right: auto;
+	margin-top: 50%;
 }
 #my3D{
 	min-height: 100vh;
@@ -105,13 +110,7 @@ button:hover {
   color: black;
   text-align: center;
 }
-#duttons{
-	  margin: 0;
-  position: absolute;
-  left: 50%;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
+
 
 footer{
 	width: 100%;
